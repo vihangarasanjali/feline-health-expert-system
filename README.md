@@ -39,7 +39,7 @@ linked here: **[add link or note "see submitted PDF"]**.
 ```bash
 cd backend
 pip install -r requirements.txt
-uvicorn api:app --reload --port 8000
+uvicorn app:app --reload --port 8000
 ```
 
 Check it's running: open http://127.0.0.1:8000/symptoms — you should see a
