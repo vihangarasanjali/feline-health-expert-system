@@ -16,9 +16,8 @@ linked here: **[add link or note "see submitted PDF"]**.
 .
 ├── backend/
 │   ├── knowledge_base.py     # Facts + rules (with cited sources)
-│   ├── inference_engine.py   # Forward & backward chaining
-│   ├── cli.py                 # Command-line interface
-│   ├── api.py                  # FastAPI backend for the web UI
+│   ├── inference_engine.py   # Forward & backward chaining                # Command-line interface
+│   ├── app.py                  # FastAPI backend for the web UI
 │   └── requirements.txt
 └── frontend/
     ├── src/
@@ -32,18 +31,6 @@ linked here: **[add link or note "see submitted PDF"]**.
 - Python 3.10+
 - Node.js 18+ and npm
 - Internet access (to load the Google Fonts used by the web UI)
-
-## Running the command-line version
-
-```bash
-cd backend
-pip install -r requirements.txt
-python cli.py
-```
-
-Follow the on-screen menu to either diagnose from a set of symptoms
-(forward chaining) or test a specific disease hypothesis (backward
-chaining).
 
 ## Running the web version
 
